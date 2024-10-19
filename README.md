@@ -1,4 +1,5 @@
-# Selection sort and Insertion sort
+### Date :
+# Ex-8 : Selection sort and Insertion sort
 ## Aim:
 To write a program to perform selection sort and insertion sort using python programming.
 ## Equipment’s required:
@@ -18,25 +19,37 @@ To write a program to perform selection sort and insertion sort using python pro
 4.	Break the loop and insert X.
 5.	Repeat the steps 2 to 4 for sorting all the elements in the array.
 ## Program:
+Program to find the square root for the given number(newton's method) using function.</br>
+Developed by: Suriya Pravin M</br>
+RegisterNumber : 212223230223</br></br>
 i)	#Selection Sort
 ```
-
-
-
-
-
+num=eval(input())
+for i in range(len(num)):
+    low=i
+    for j in range(i+1,len(num)):
+        if num[j]<num[low]:
+            low=j
+    num[i],num[low]=num[low],num[i]
+print(num)
 ```
 ii)	#Insertion Sort
 ```
-
-
-
-
-
-
+num=eval(input())
+for i in range(1,len(num)):
+    insert=num[i]
+    j=i-1
+    while j>=0 and num[j]>=insert:
+        num[j+1]=num[j]
+        j=j-1
+    num[j+1]=insert
+print(num)
 ```
 
 ## Output:
+![image](https://github.com/user-attachments/assets/711e76c0-9d11-4391-b144-32364161b020)
+
+![image](https://github.com/user-attachments/assets/757341da-5f37-41eb-a423-aeb8f578db75)
 
 
 ## Result:
