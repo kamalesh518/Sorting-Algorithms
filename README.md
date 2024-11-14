@@ -20,8 +20,8 @@ To write a program to perform selection sort and insertion sort using python pro
 5.	Repeat the steps 2 to 4 for sorting all the elements in the array.
 ## Program:
 Program to find the square root for the given number(newton's method) using function.</br>
-Developed by: Suriya Pravin M</br>
-RegisterNumber : 212223230223</br></br>
+Developed by: Kamalesh Y</br>
+RegisterNumber : 24004024</br></br>
 i)	#Selection Sort
 ```
 num=eval(input())
